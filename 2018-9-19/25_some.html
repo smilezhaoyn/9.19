@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /*
+        some：
+            在数组中只要有一个成立，就为true
+    */   
+   let arr = [undefined,{},true,'',321];
+   
+   console.log(arr.some(function(el,i){
+        return typeof el === 'string'
+   }));
+
+   
+
+    
+</script>
+</body>
+</html>
